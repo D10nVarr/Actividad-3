@@ -1,8 +1,8 @@
 elif 29 <= age <= 45:
-etapa = "señor"
+  = "señor"
 elif 46 <= age <= 100:
-etapa = "anciano"
+ age_range = "anciano"
 else:
-etapa = "Esta edad esta fuera del rango aceptado, lo sentimos"
+ age_range = "Esta edad esta fuera del rango aceptado, lo sentimos"
 
-print(f"{name}, edad {age}: {etapa}.")
+print(f"{name}, edad {age}: {age_range}.")
