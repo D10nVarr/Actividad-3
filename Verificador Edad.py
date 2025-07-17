@@ -6,7 +6,7 @@ for i in range(cant):
     age=int(input("Ingrese su edad: "))
 
     if age<18:
-        print("Usted es considerado un menor de edad")
+        age_range="menor"
 
     elif age<=18 and age<=28:
-        print("Usted es considerado un joven")
+        age_range="joven"
