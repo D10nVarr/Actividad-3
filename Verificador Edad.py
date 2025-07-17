@@ -8,12 +8,12 @@ for i in range(cant):
     if age<18:
         age_range="menor"
 
-    elif age<=18 and age<=28:
+    elif age>=18 and age<=28:
         age_range="joven"
 
-    elif age <= 29 and age <= 45:
+    elif age >= 29 and age <= 45:
         age_range = "señor"
-    elif age <= 46 and age <= 100:
+    elif age >= 46 and age <= 100:
         age_range = "anciano"
     else:
         age_range = "Esta edad esta fuera del rango aceptado, lo sentimos"
