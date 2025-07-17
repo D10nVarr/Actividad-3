@@ -1,4 +1,3 @@
-
     elif 29 <= age <= 45:
        age_range= "señor"
     elif 46 <= age <= 100:
