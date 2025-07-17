@@ -9,4 +9,4 @@ for i in range(cant):
         age_range="menor"
 
     elif age<=18 and age<=28:
-        age_range="joven"
+        age_range="jóven"
